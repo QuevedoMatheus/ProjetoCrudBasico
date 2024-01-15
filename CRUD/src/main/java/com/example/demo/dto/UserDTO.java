@@ -2,6 +2,9 @@ package com.example.demo.dto;
 
 import java.io.Serializable;
 import java.time.Instant;
+import java.util.ArrayList;
+
+
 
 public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -13,6 +16,8 @@ public class UserDTO implements Serializable {
 	private Double income;
 	private Instant brithDate;
 	private Integer children;
+	
+	
 	
 	public UserDTO() {
 		
@@ -75,5 +80,8 @@ public class UserDTO implements Serializable {
 	public void setChildren(Integer children) {
 		this.children = children;
 	}
+	
+	
+
 
 }
